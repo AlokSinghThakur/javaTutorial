@@ -4,20 +4,17 @@
 public class hello {    
     
     public static void main(String a[]){
+        // int num1 = 0b101;  // output 5
 
-        int num1 = 3;
-        byte by = 123;
-        short sh = 558;
+        // int num2 = 0x7E; // output 126
 
-        long l = 5854l;
+        // int num3 = 10_00_00_000; // output 100000000
 
-        float f= 5.8f;
-        double d = 5.8;
+        // double num4 = 12e10; // output 1.2E11
 
-        char c = 'k';
-
-        boolean b = true;
-
+        // char c = 'a';
+        // c++; // output b;
+        System.out.println(c);
 
 
     }
