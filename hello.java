@@ -1,6 +1,11 @@
 /**
  * hello
  */
+
+ //enum
+ enum Level{
+    LOW,MEDIUM,HARD
+ }
 public class hello {    
     
     public static void main(String a[]){
@@ -14,8 +19,13 @@ public class hello {
 
         // char c = 'a';
         // c++; // output b;
-        System.out.println(c);
+        // System.out.println(c);
+        Level[] LL = Level.values();
 
+        for(Level L: LL){
+
+        System.out.println(L+" : "+L.ordinal());
+}
 
     }
 }
